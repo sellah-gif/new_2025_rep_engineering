@@ -19,3 +19,12 @@ models:
             tests:
                 - unique
                 - not_null
+
+
+sources:
+  - name: ABC
+    database: MY_DB_LAB
+    schema: TARGET_LAB
+    tables:
+      - name: NEW_PROD_DIM
+
